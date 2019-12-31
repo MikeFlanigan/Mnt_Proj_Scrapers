@@ -1,0 +1,84 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.3.4.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="55e4e6b4-d30e-4650-9f78-3868889d3bc6" data-root-id="1002"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1115">
+          {"3c79bced-e45a-479e-885a-b5c10e144807":{"roots":{"references":[{"attributes":{},"id":"1025","type":"SaveTool"},{"attributes":{"below":[{"id":"1013","type":"CategoricalAxis"}],"center":[{"id":"1016","type":"Grid"},{"id":"1021","type":"Grid"}],"left":[{"id":"1017","type":"LinearAxis"}],"plot_height":700,"plot_width":1200,"renderers":[{"id":"1041","type":"GlyphRenderer"}],"title":{"id":"1003","type":"Title"},"toolbar":{"id":"1029","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"1005","type":"FactorRange"},"x_scale":{"id":"1009","type":"CategoricalScale"},"y_range":{"id":"1007","type":"DataRange1d"},"y_scale":{"id":"1011","type":"LinearScale"}},"id":"1002","subtype":"Figure","type":"Plot"},{"attributes":{"source":{"id":"1001","type":"ColumnDataSource"}},"id":"1042","type":"CDSView"},{"attributes":{"grid_line_color":null,"ticker":{"id":"1014","type":"CategoricalTicker"}},"id":"1016","type":"Grid"},{"attributes":{"overlay":{"id":"1050","type":"BoxAnnotation"}},"id":"1024","type":"BoxZoomTool"},{"attributes":{"fill_color":{"field":"words","transform":{"id":"1037","type":"CategoricalColorMapper"}},"line_color":{"value":"white"},"top":{"field":"counts"},"width":{"value":1},"x":{"field":"words"}},"id":"1039","type":"VBar"},{"attributes":{},"id":"1014","type":"CategoricalTicker"},{"attributes":{},"id":"1023","type":"WheelZoomTool"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1050","type":"BoxAnnotation"},{"attributes":{"axis_label":"Common words in route names","formatter":{"id":"1046","type":"CategoricalTickFormatter"},"major_label_orientation":1.5707963267948966,"ticker":{"id":"1014","type":"CategoricalTicker"}},"id":"1013","type":"CategoricalAxis"},{"attributes":{},"id":"1022","type":"PanTool"},{"attributes":{},"id":"1049","type":"UnionRenderers"},{"attributes":{},"id":"1011","type":"LinearScale"},{"attributes":{"data_source":{"id":"1001","type":"ColumnDataSource"},"glyph":{"id":"1039","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1040","type":"VBar"},"selection_glyph":null,"view":{"id":"1042","type":"CDSView"}},"id":"1041","type":"GlyphRenderer"},{"attributes":{},"id":"1048","type":"Selection"},{"attributes":{},"id":"1009","type":"CategoricalScale"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1022","type":"PanTool"},{"id":"1023","type":"WheelZoomTool"},{"id":"1024","type":"BoxZoomTool"},{"id":"1025","type":"SaveTool"},{"id":"1026","type":"ResetTool"},{"id":"1027","type":"HelpTool"},{"id":"1028","type":"HoverTool"}]},"id":"1029","type":"Toolbar"},{"attributes":{},"id":"1046","type":"CategoricalTickFormatter"},{"attributes":{"callback":null,"start":0},"id":"1007","type":"DataRange1d"},{"attributes":{"callback":null,"tooltips":"\n&lt;div&gt;\n    &lt;div float: left; width: 230px;&gt;\n        &lt;div&gt;\n            &lt;span style=\"float: left; margin: 10px 15px 0px 15px; font-size: 15px; width: 100px;\"&gt;\"@words\" occurs&lt;/span&gt;\n        &lt;/div&gt;\n        &lt;div&gt;\n            &lt;span style=\"float: left; margin: 10px 15px 0px 15px; font-size: 15px; width: 100px;\"&gt;@counts times&lt;/span&gt;\n        &lt;/div&gt;\n    &lt;/div&gt;\n&lt;/div&gt;\n"},"id":"1028","type":"HoverTool"},{"attributes":{"dimension":1,"ticker":{"id":"1018","type":"BasicTicker"}},"id":"1021","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"counts"},"width":{"value":1},"x":{"field":"words"}},"id":"1040","type":"VBar"},{"attributes":{"callback":null,"factors":["route","you","your","out","rock","project","red","from","south","blue","west","love","two","dog","old","good","new","mr.","power","down","boy","just","tree","low","lost","buttress","free","super","over","get","full","gully","hot","pocket","edge","three","sun","sky","eye","fun","but","house","sweet","bolt","blood","groove","route,","never","block","choss","fly","step","blues","los","who","got","brown","butt","beer","upper","gold","show","bulge","street","gun","boys","book","sex","here","foot","cold","cool","feet","better","run","prow","jesus"]},"id":"1005","type":"FactorRange"},{"attributes":{},"id":"1027","type":"HelpTool"},{"attributes":{},"id":"1044","type":"BasicTickFormatter"},{"attributes":{},"id":"1018","type":"BasicTicker"},{"attributes":{"callback":null,"data":{"counts":[1554,594,592,506,431,419,399,372,368,359,352,351,334,317,306,301,288,286,280,268,251,249,245,226,221,221,216,216,213,211,210,208,197,191,188,188,180,178,173,172,166,159,158,156,154,142,140,132,131,128,127,126,125,121,121,121,120,119,119,118,118,114,114,113,112,111,109,108,106,105,105,105,105,103,102,101,101],"words":["route","you","your","out","rock","project","red","from","south","blue","west","love","two","dog","old","good","new","mr.","power","down","boy","just","tree","low","lost","buttress","free","super","over","get","full","gully","hot","pocket","edge","three","sun","sky","eye","fun","but","house","sweet","bolt","blood","groove","route,","never","block","choss","fly","step","blues","los","who","got","brown","butt","beer","upper","gold","show","bulge","street","gun","boys","book","sex","here","foot","cold","cool","feet","better","run","prow","jesus"]},"selected":{"id":"1048","type":"Selection"},"selection_policy":{"id":"1049","type":"UnionRenderers"}},"id":"1001","type":"ColumnDataSource"},{"attributes":{"text":"Common Route Name Words and Their Occurance Counts","text_font_size":{"value":"20pt"}},"id":"1003","type":"Title"},{"attributes":{},"id":"1026","type":"ResetTool"},{"attributes":{"factors":["route","you","your","out","rock","project","red","from","south","blue","west","love","two","dog","old","good","new","mr.","power","down","boy","just","tree","low","lost","buttress","free","super","over","get","full","gully","hot","pocket","edge","three","sun","sky","eye","fun","but","house","sweet","bolt","blood","groove","route,","never","block","choss","fly","step","blues","los","who","got","brown","butt","beer","upper","gold","show","bulge","street","gun","boys","book","sex","here","foot","cold","cool","feet","better","run","prow","jesus"],"palette":["#000003","#000004","#000006","#010007","#010109","#01010B","#02010E","#020210","#030212","#040314","#040316","#050418","#06041B","#07051D","#08061F","#090621","#0A0723","#0B0726","#0D0828","#0E082A","#0F092D","#10092F","#120A32","#130A34","#140B36","#160B39","#170B3B","#190B3E","#1A0B40","#1C0C43","#1D0C45","#1F0C47","#200C4A","#220B4C","#240B4E","#260B50","#270B52","#290B54","#2B0A56","#2D0A58","#2E0A5A","#300A5C","#32095D","#34095F","#350960","#370961","#390962","#3B0964","#3C0965","#3E0966","#400966","#410967","#430A68","#450A69","#460A69","#480B6A","#4A0B6A","#4B0C6B","#4D0C6B","#4F0D6C","#500D6C","#520E6C","#530E6D","#550F6D","#570F6D","#58106D","#5A116D","#5B116E","#5D126E","#5F126E","#60136E","#62146E","#63146E","#65156E","#66156E","#68166E","#6A176E"]},"id":"1037","type":"CategoricalColorMapper"},{"attributes":{"axis_label":"Number of occurances","formatter":{"id":"1044","type":"BasicTickFormatter"},"ticker":{"id":"1018","type":"BasicTicker"}},"id":"1017","type":"LinearAxis"}],"root_ids":["1002"]},"title":"Bokeh Application","version":"1.3.4"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1115').textContent;
+                  var render_items = [{"docid":"3c79bced-e45a-479e-885a-b5c10e144807","roots":{"1002":"55e4e6b4-d30e-4650-9f78-3868889d3bc6"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
